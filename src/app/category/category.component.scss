@@ -1,0 +1,29 @@
+  
+ .category{ 
+     margin-top:5em;;
+    display: grid;
+    place-content: center;
+     position:fixed;
+    //  width: 100%;
+    //  height: 100%;
+    max-width: 70%;
+    background: white;
+     padding: 2em;
+     display: grid;
+     grid-template-columns: repeat(auto-fit,minmax(15rem,1fr));
+     border-radius: 2em;
+
+ }
+  
+ 
+ .cat-item span{
+    margin: 1.3em;
+ }
+input{    
+    border-radius: .5em;
+}
+
+.button{
+display: flex;
+margin-left: -2em;
+}
